@@ -17,7 +17,7 @@
 		A94F5D3B23CCC8A1001067AF /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94F5D3A23CCC8A1001067AF /* AppError.swift */; };
 		A94F5D3D23CCC90B001067AF /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94F5D3C23CCC90B001067AF /* NetworkHelper.swift */; };
 		A94F5D3F23CCCEB1001067AF /* HoroscopeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94F5D3E23CCCEB1001067AF /* HoroscopeAPI.swift */; };
-		A94F5D4223CCCF81001067AF /* horoscopeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94F5D4123CCCF81001067AF /* horoscopeModel.swift */; };
+		A94F5D4223CCCF81001067AF /* HoroscopeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94F5D4123CCCF81001067AF /* HoroscopeModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +33,7 @@
 		A94F5D3A23CCC8A1001067AF /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
 		A94F5D3C23CCC90B001067AF /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
 		A94F5D3E23CCCEB1001067AF /* HoroscopeAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoroscopeAPI.swift; sourceTree = "<group>"; };
-		A94F5D4123CCCF81001067AF /* horoscopeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = horoscopeModel.swift; sourceTree = "<group>"; };
+		A94F5D4123CCCF81001067AF /* HoroscopeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoroscopeModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,7 +109,7 @@
 		A94F5D4023CCCF75001067AF /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				A94F5D4123CCCF81001067AF /* horoscopeModel.swift */,
+				A94F5D4123CCCF81001067AF /* HoroscopeModel.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -187,7 +187,7 @@
 			files = (
 				A94F5D3F23CCCEB1001067AF /* HoroscopeAPI.swift in Sources */,
 				A94F5D2623CCC732001067AF /* ViewController.swift in Sources */,
-				A94F5D4223CCCF81001067AF /* horoscopeModel.swift in Sources */,
+				A94F5D4223CCCF81001067AF /* HoroscopeModel.swift in Sources */,
 				A94F5D3D23CCC90B001067AF /* NetworkHelper.swift in Sources */,
 				A94F5D2223CCC732001067AF /* AppDelegate.swift in Sources */,
 				A94F5D3B23CCC8A1001067AF /* AppError.swift in Sources */,

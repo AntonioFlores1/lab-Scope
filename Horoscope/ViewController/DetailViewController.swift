@@ -14,9 +14,11 @@ class DetailViewController: UIViewController {
     
     @IBOutlet weak var horoscopeTextView: UITextView!
     
+    var sign: String!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        print(sign!)
         
     }
     
