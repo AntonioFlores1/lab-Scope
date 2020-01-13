@@ -8,4 +8,16 @@
 
 import Foundation
 
+struct HoroscopeToday:Decodable {
+    let sunsign: String
+    let credit: String
+    let date: String
+    let horoscope: String
+    let meta: medaInfo
+}
 
+struct medaInfo:Decodable {
+    let mood: String
+    let keywords: String
+    let intensity: String
+}

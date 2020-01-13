@@ -44,7 +44,7 @@ class NetworkHelper {
             
             CompletionHandler(.success(data))
             
-        }
+        }.resume()
         
     }
     
